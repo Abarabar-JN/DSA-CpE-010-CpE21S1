@@ -1,9 +1,82 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0" version="24.7.8">
   <diagram name="Page-1" id="68mir1o4w8dqRC3McJiR">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OuWLP3ooGC_tM_OI9yVP-1" target="OuWLP3ooGC_tM_OI9yVP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-2" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365.25" y="1000" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OuWLP3ooGC_tM_OI9yVP-3" target="OuWLP3ooGC_tM_OI9yVP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-3" value="Sum = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OuWLP3ooGC_tM_OI9yVP-5" target="OuWLP3ooGC_tM_OI9yVP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-5" value="&lt;div&gt;Input Grades:&lt;/div&gt;&lt;div&gt;[26,49,98,87,62,75]&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="333" y="230" width="185" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OuWLP3ooGC_tM_OI9yVP-6" target="OuWLP3ooGC_tM_OI9yVP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OuWLP3ooGC_tM_OI9yVP-6" target="OuWLP3ooGC_tM_OI9yVP-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="475" />
+              <mxPoint x="230" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-6" value="Are grades &amp;lt; length of list" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="390" width="172.5" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OuWLP3ooGC_tM_OI9yVP-7" target="OuWLP3ooGC_tM_OI9yVP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-7" value="Output Sum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="365.25" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OuWLP3ooGC_tM_OI9yVP-8" target="OuWLP3ooGC_tM_OI9yVP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-8" value="Sum = Sum + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365.25" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OuWLP3ooGC_tM_OI9yVP-9" target="OuWLP3ooGC_tM_OI9yVP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="OuWLP3ooGC_tM_OI9yVP-9" target="OuWLP3ooGC_tM_OI9yVP-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="695" />
+              <mxPoint x="590" y="952" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-9" value="Are grades divisible by 2?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330.5" y="600" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-19" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="548" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-20" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="528" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-21" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="908" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OuWLP3ooGC_tM_OI9yVP-22" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="778" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
