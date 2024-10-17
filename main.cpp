@@ -28,7 +28,7 @@ int main() {//Main file used to implement the sorting of arrays using various al
     std::cout << "Original Array:\n";
     printArray(randomArray);
 
-    // Bubble Sort
+    // Used to Bubble Sort
     std::vector<int> bubbleArray = randomArray;
     bubbleSort(bubbleArray.data(), bubbleArray.size());
     std::cout << "\n(Bubble Sort):\n";
@@ -48,4 +48,3 @@ int main() {//Main file used to implement the sorting of arrays using various al
 
     return 0;
 }
-
